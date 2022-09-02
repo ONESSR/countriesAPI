@@ -18,12 +18,20 @@ export const Input = ({ filter }) => {
       <Box
         component="form"
         sx={{
-          margin: "40px 0px"
+          margin: "40px 0px",
+          width: "100%",
+          textAlign: "center"
         }}
         noValidate
         autoComplete="off"
       >
         <TextField
+          sx={{
+            width: {
+              xs: "100%",
+              md: " 50%"
+            }
+          }}
           placeholder="Search country.."
           value={inputValue}
           id="outlined-basic"
