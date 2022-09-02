@@ -18,7 +18,7 @@ export const Input = ({ filter }) => {
       <Box
         component="form"
         sx={{
-          "& > :not(style)": { m: 1, width: "25ch" }
+          margin: "40px 0px"
         }}
         noValidate
         autoComplete="off"
@@ -26,7 +26,6 @@ export const Input = ({ filter }) => {
         <TextField
           value={inputValue}
           id="outlined-basic"
-          label="Outlined"
           variant="outlined"
           InputProps={{
             startAdornment: (
