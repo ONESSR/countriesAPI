@@ -27,8 +27,12 @@ export const Card = ({
         >
           <img src={svg} alt="flag" />
         </Box>
-        <Box>
-          <Typography>{common}</Typography>
+        <Box sx={{ padding: "16px" }}>
+          <Typography
+            sx={{ fontSize: "18px", fontWeight: "600", marginBottom: "8px" }}
+          >
+            {common}
+          </Typography>
           <Typography>Population: {population}</Typography>
           <Typography>Region: {region}</Typography>
           <Typography>Capital: {capital}</Typography>
