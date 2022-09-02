@@ -24,6 +24,7 @@ export const Input = ({ filter }) => {
         autoComplete="off"
       >
         <TextField
+          placeholder="Search country.."
           value={inputValue}
           id="outlined-basic"
           variant="outlined"
